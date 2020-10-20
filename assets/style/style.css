@@ -7,27 +7,27 @@
 	src: url(../font/exo/exothin.woff2) format("woff2"),
 		url(../font/exo//exothin.woff) format("woff");
 }
-
 body {
-	margin: 0;
-	padding: 0;
+	width: 1440px;
+	margin: 0 auto;
 }
 
-.container {
-	width: 1440px;
+header {
 	height: 813px;
-	margin: 0 auto;
 	background: url(../image/header_bg.png) no-repeat 50% 0;
 }
 
 h1 {
 	margin: auto;
+	padding-top: 214px;
 	width: 759px;
-	padding: 214px;
 	font-family: "Exo", Arial, Helvetica, sans-serif;
 	text-align: center;
 	font-weight: 100;
 	font-size: 60px;
 	line-height: 68px;
 	letter-spacing: 0.04em;
+}
+.play-icon {
+	margin: 0 50%;
 }
