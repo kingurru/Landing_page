@@ -28,6 +28,15 @@ h1 {
 	line-height: 68px;
 	letter-spacing: 0.04em;
 }
+
 .play-icon {
+	display: block;
+	width: 59px;
+	height: 59px;
 	margin: 0 50%;
+	border-radius: 50%;
+	background: url(../image/header_play_video-icon.png);
+
 }
+
+
