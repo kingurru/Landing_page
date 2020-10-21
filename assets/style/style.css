@@ -2,13 +2,14 @@
 	margin: 0;
 	padding: 0;
 }
+
 @font-face {
-	font-family: "Exo";
-	src: url(../font/exo/exothin.woff2) format("woff2"),
-		url(../font/exo//exothin.woff) format("woff");
+	font-family: "Exo-Regular";
+	src: url(../font/Exo/Exo-Regular.ttf);
 }
+
 body {
-	width: 1440px;
+	max-width: 1440px;
 	margin: 0 auto;
 }
 
@@ -18,25 +19,35 @@ header {
 }
 
 h1 {
-	margin: auto;
+	margin: 0 auto;
 	padding-top: 214px;
-	width: 759px;
-	font-family: "Exo", Arial, Helvetica, sans-serif;
+	width: 760px;
 	text-align: center;
-	font-weight: 100;
+	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
 	font-size: 60px;
-	line-height: 68px;
-	letter-spacing: 0.04em;
+	line-height: 73px;
+	letter-spacing: 0.023em;
 }
 
 .play-icon {
 	display: block;
 	width: 59px;
 	height: 59px;
-	margin: 0 50%;
+	margin: 45px auto 0;
 	border-radius: 50%;
 	background: url(../image/header_play_video-icon.png);
-
 }
 
-
+.button {
+	width: 190px;
+	height: 50px;
+	margin: 40px auto;
+	background-color: #ff6d6d;
+	border-radius: 3px;
+	text-align: center;
+	color: rgba(255, 255, 255, 0.8);
+	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	letter-spacing: 0.2em;
+	line-height: 50px;
+}
