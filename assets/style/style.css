@@ -1,15 +1,22 @@
 * {
+	box-sizing: border-box;
 	margin: 0;
 	padding: 0;
 }
 
-/* .latin {
-	
-} */
-
 @font-face {
 	font-family: "Exo-Regular";
-	src: url(../font/Exo/Exo-Regular.ttf);
+	src: url(../font/exo/Exo-Regular.otf);
+}
+
+@font-face {
+	font-family: "Exo-Italic";
+	src: url(../font/exo/Exo-Regular-Italic.otf);
+}
+
+@font-face {
+	font-family: "Exo-Thin";
+	src: url(../font/exo/Exo-Thin.otf);
 }
 
 body {
@@ -25,48 +32,51 @@ header {
 
 h1 {
 	margin: 0 auto;
-	padding-top: 214px;
-	width: 750px;
-	text-align: center;
-	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
-	font-weight: 400;
+	padding-top: 215px;
+	padding-left: 3px;
+	width: 730px;
+	color: #28282886;
+	font-family: "Exo-Thin", Arial, Helvetica, sans-serif;
 	font-size: 60px;
-	line-height: 73px;
-	letter-spacing: 0.04em;
+	letter-spacing: 1.4px;
+	line-height: 75px;
+	text-align: center;
 }
 
 .play-icon {
 	display: block;
+	margin: 41px auto 0;
 	width: 59px;
 	height: 59px;
-	margin: 45px auto 0;
 	border-radius: 50%;
 	background: url(../image/header_play_video-icon.png);
 }
 
 .button {
+	margin: 39px auto 0;
+	padding-left: 3px;
 	width: 190px;
 	height: 50px;
-	margin: 40px auto 0;
-	background-color: #ff6d6d;
 	border-radius: 3px;
-	text-align: center;
-	color: rgba(255, 255, 255, 0.8);
+	background-color: #ff6d6d;
+	color: #ffffff;
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
-	font-weight: 400;
 	font-size: 16px;
-	letter-spacing: 0.2em;
+	letter-spacing: 3.2px;
 	line-height: 50px;
+	text-align: center;
+	text-transform: uppercase;
 }
 
 header > p {
 	margin-top: 16px;
-	text-align: center;
-	color: #989899;
+	opacity: 0.6;
+	color: #282828;
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
-	font-weight: 400;
 	font-size: 14px;
-	letter-spacing: 0.04em;
+	letter-spacing: 0.56px;
+	line-height: normal;
+	text-align: center;
 }
 /* ! end HEADER */
 
@@ -77,33 +87,44 @@ section.new-design {
 }
 
 .container-new-design {
-	width: 590px;
-	padding-left: 150px;
+	width: 730px;
+	padding-left: 149px;
 	padding-top: 186px;
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
 	font-weight: 400;
 }
 
 .name-new-design {
-	font-size: 16px;
-	line-height: 24px;
-	letter-spacing: 0.2em;
+	padding-left: 2px;
+	padding-top: 1px;
 	color: #ff6d6d;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 2.8px;
+	line-height: normal;
+	text-align: left;
+	text-transform: uppercase;
 }
 
 .title-new-design {
+	padding-top: 5px;
+	color: #282828;
 	font-size: 40px;
-	line-height: 52px;
-	letter-spacing: 0.04em;
+	font-weight: 500;
+	letter-spacing: 1.6px;
+	line-height: 50px;
 }
 
 .description-new-design {
-	margin-top: 35px;
-	font-size: 16px;
-	line-height: 27px;
-	letter-spacing: 0.04em;
-	color: #282828;
+	margin-top: 40px;
 	opacity: 0.66;
+	color: #282828;
+	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 500;
+	letter-spacing: 0.45px;
+	line-height: 26px;
+	text-align: left;
 }
 
 .dotted {
@@ -134,6 +155,22 @@ section.new-features {
 	line-height: 24px;
 	letter-spacing: 0.2em;
 	color: #ff6d6d;
+	/* 
+/* Style for "NEW DESIGN" */
+	width: 119px;
+	height: 13px;
+	color: #ff6d6d;
+	font-family: Exo;
+	font-size: 16px;
+	font-weight: 500;
+	font-style: normal;
+	letter-spacing: normal;
+	line-height: 50px;
+	text-align: left;
+	text-transform: uppercase;
+	font-style: normal;
+	letter-spacing: 3.2px;
+	line-height: normal;
 }
 .title-new-features {
 	text-align: center;
