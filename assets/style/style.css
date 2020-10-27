@@ -35,10 +35,11 @@ h1 {
 	padding-top: 215px;
 	padding-left: 3px;
 	width: 730px;
-	color: #28282886;
+	color: #282828;
+	opacity: 80%;
 	font-family: "Exo-Thin", Arial, Helvetica, sans-serif;
 	font-size: 60px;
-	letter-spacing: 1.4px;
+	letter-spacing: 2.4px;
 	line-height: 75px;
 	text-align: center;
 }
@@ -91,16 +92,14 @@ section.new-design {
 	padding-left: 149px;
 	padding-top: 186px;
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
-	font-weight: 400;
 }
 
 .name-new-design {
-	padding-left: 2px;
-	padding-top: 1px;
+	padding-left: 1px;
 	color: #ff6d6d;
 	font-size: 16px;
 	font-weight: 500;
-	letter-spacing: 2.8px;
+	letter-spacing: 3.2px;
 	line-height: normal;
 	text-align: left;
 	text-transform: uppercase;
@@ -116,27 +115,25 @@ section.new-design {
 }
 
 .description-new-design {
-	margin-top: 40px;
+	margin-top: 37px;
 	opacity: 0.66;
 	color: #282828;
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 500;
-	letter-spacing: 0.45px;
-	line-height: 26px;
-	text-align: left;
+	letter-spacing: 0.65px;
+	line-height: 26.5px;
 }
 
 .dotted {
 	color: #ff6d6d;
 }
-
 /* ! end SECTION.new-design */
 
 /* * start SECTION.new-features */
 section.new-features {
 	height: 675px;
-	background-color: #f6f5f3;
+	background: url(../image/section-bg-nf.png) no-repeat top center;
 }
 /*.earphones {
 }
@@ -146,46 +143,38 @@ section.new-features {
 }*/
 .container-new-features {
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
-	font-weight: 400;
+	font-weight: 500;
+	color: #282828;
+	text-align: center;
 }
 .name-new-features {
-	padding-top: 138px;
-	text-align: center;
-	font-size: 16px;
-	line-height: 24px;
-	letter-spacing: 0.2em;
+	padding-top: 132px;
+	padding-left: 2px;
 	color: #ff6d6d;
-	/* 
-/* Style for "NEW DESIGN" */
-	width: 119px;
-	height: 13px;
-	color: #ff6d6d;
-	font-family: Exo;
 	font-size: 16px;
 	font-weight: 500;
-	font-style: normal;
-	letter-spacing: normal;
-	line-height: 50px;
-	text-align: left;
-	text-transform: uppercase;
-	font-style: normal;
 	letter-spacing: 3.2px;
-	line-height: normal;
-}
-.title-new-features {
 	text-align: center;
-	font-size: 40px;
-	line-height: 52px;
-	letter-spacing: 0.04em;
+	text-transform: uppercase;
 }
+
+.title-new-features {
+	padding-top: 3px;
+	padding-left: 2px;
+	font-size: 40px;
+	font-weight: 500;
+	text-align: center;
+	letter-spacing: 1.6px;
+}
+
 .horizontal-grid {
+	padding: 77px 160px 184px;
 	display: flex;
-	justify-content: space-evenly;
+	justify-content: space-between;
 }
 
 .horizontal-grid p {
-	text-align: center;
-	width: 358px;
+	width: 342px;
 }
 
 .horizontal-grid .header {
@@ -197,7 +186,6 @@ section.new-features {
 	font-size: 16px;
 	line-height: 27px;
 	letter-spacing: 0.04em;
-	color: #282828;
 	opacity: 0.66;
 }
 
