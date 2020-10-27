@@ -38,6 +38,7 @@ h1 {
 	color: #282828;
 	opacity: 80%;
 	font-family: "Exo-Thin", Arial, Helvetica, sans-serif;
+	font-weight: 100;
 	font-size: 60px;
 	letter-spacing: 2.4px;
 	line-height: 75px;
@@ -135,12 +136,7 @@ section.new-features {
 	height: 675px;
 	background: url(../image/section-bg-nf.png) no-repeat top center;
 }
-/*.earphones {
-}
-.coffee-cup {
-}
-.pen-holder {
-}*/
+
 .container-new-features {
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
 	font-weight: 500;
@@ -148,7 +144,7 @@ section.new-features {
 	text-align: center;
 }
 .name-new-features {
-	padding-top: 132px;
+	padding-top: 134px;
 	padding-left: 2px;
 	color: #ff6d6d;
 	font-size: 16px;
@@ -159,10 +155,11 @@ section.new-features {
 }
 
 .title-new-features {
-	padding-top: 3px;
-	padding-left: 2px;
+	padding-left: 1px;
+	padding-top: 4px;
 	font-size: 40px;
 	font-weight: 500;
+	line-height: normal;
 	text-align: center;
 	letter-spacing: 1.6px;
 }
@@ -177,16 +174,29 @@ section.new-features {
 	width: 342px;
 }
 
+.block2 {
+	padding-right: 3px;
+}
+
 .horizontal-grid .header {
+	padding-top: 17px;
 	font-size: 22px;
-	line-height: 32px;
-	letter-spacing: 0.04em;
+	font-weight: 500;
+	line-height: 44px;
+	letter-spacing: 0.88px;
+	text-align: center;
+	font-style: normal;
 }
 .horizontal-grid .text {
-	font-size: 16px;
-	line-height: 27px;
-	letter-spacing: 0.04em;
+	margin: 0 auto;
+	width: 342px;
+	height: 70px;
 	opacity: 0.66;
+	font-size: 16px;
+	font-weight: 500;
+	line-height: 27px;
+	letter-spacing: 0.6px;
+	text-align: center;
 }
 
 div.horizontal-grid img {
