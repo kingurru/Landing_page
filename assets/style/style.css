@@ -27,7 +27,7 @@ body {
 /* * start HEADER */
 header {
 	height: 813px;
-	background: url(../image/header_bg.png) no-repeat top center;
+	background: url(../image/header-bg.png) no-repeat top center;
 }
 
 h1 {
@@ -51,7 +51,7 @@ h1 {
 	width: 59px;
 	height: 59px;
 	border-radius: 50%;
-	background: url(../image/header_play_video-icon.png);
+	background: url(../image/header-play.png);
 }
 
 .button {
@@ -82,10 +82,10 @@ header > p {
 }
 /* ! end HEADER */
 
-/* * start SECTION.new-design */
+/* * start SECTION1.new-design */
 section.new-design {
 	height: 724px;
-	background: url(../image/section-bg-right.png) no-repeat top center;
+	background: url(../image/section1-bg.png) no-repeat top center;
 }
 
 .container-new-design {
@@ -96,6 +96,7 @@ section.new-design {
 }
 
 .name-new-design {
+	padding-top: 3px;
 	padding-left: 1px;
 	color: #ff6d6d;
 	font-size: 16px;
@@ -116,25 +117,29 @@ section.new-design {
 }
 
 .description-new-design {
-	margin-top: 37px;
+	margin-top: 38px;
 	opacity: 0.66;
 	color: #282828;
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
 	font-size: 16px;
 	font-weight: 500;
-	letter-spacing: 0.65px;
-	line-height: 26.5px;
+	letter-spacing: 0.66px;
+	line-height: 27px;
+}
+
+.p2 {
+	margin-top: 24px;
 }
 
 .dotted {
 	color: #ff6d6d;
 }
-/* ! end SECTION.new-design */
+/* ! end SECTION1.new-design */
 
-/* * start SECTION.new-features */
+/* * start SECTION2.new-features */
 section.new-features {
 	height: 675px;
-	background: url(../image/section-bg-nf.png) no-repeat top center;
+	background: url(../image/section2-bg.png) no-repeat top center;
 }
 
 .container-new-features {
@@ -144,7 +149,7 @@ section.new-features {
 	text-align: center;
 }
 .name-new-features {
-	padding-top: 134px;
+	padding-top: 135px;
 	padding-left: 2px;
 	color: #ff6d6d;
 	font-size: 16px;
@@ -156,7 +161,7 @@ section.new-features {
 
 .title-new-features {
 	padding-left: 1px;
-	padding-top: 4px;
+	padding-top: 3px;
 	font-size: 40px;
 	font-weight: 500;
 	line-height: normal;
@@ -205,3 +210,6 @@ div.horizontal-grid img {
 	width: 65px;
 	height: 65px;
 }
+/* ! end SECTION1.new-features */
+
+/* * start SECTION3.macbook */
