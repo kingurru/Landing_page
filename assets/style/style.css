@@ -88,30 +88,30 @@ section.new-design {
 	background: url(../image/section1-bg.png) no-repeat top center;
 }
 
-.section1__block-new-design {
-	width: 730px;
+.section1-block-new-design {
 	padding-left: 149px;
 	padding-top: 186px;
 }
 
-.section1__block-new-design__item {
+.section1-block-new-design__item {
 	padding-top: 1px;
 	padding-left: 1px;
 }
 
-.section1__block-new-design__title {
+.section1-block-new-design__title {
 	padding-top: 4px;
 }
 
-.section1__block-new-design__text1 {
+.section1-block-new-design__text1 {
 	margin-top: 38px;
 }
 
-.section1__block-new-design__text2 {
+.section1-block-new-design__text2 {
 	margin-top: 25px;
 }
 
 .block-new-design {
+	width: 730px;
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
 }
 
@@ -154,19 +154,19 @@ section.new-features {
 	background: url(../image/section2-bg.png) no-repeat top center;
 }
 
-.section2__block-new-features {
+.section2-block-new-features {
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
 	font-weight: 500;
 	color: #282828;
 	text-align: center;
 }
 
-.section2__block-new-features__item {
+.section2-block-new-features__item {
 	padding-top: 134px;
 	padding-left: 2px;
 }
 
-.section2__block-new-features__title {
+.section2-block-new-features__title {
 	padding-left: 1px;
 	padding-top: 1px;
 }
@@ -188,11 +188,11 @@ section.new-features {
 	letter-spacing: 1.6px;
 }
 
-.section2__block-flex {
+.section2-block-flex {
 	padding: 77px 160px 184px;
 }
 
-.section2__block-flex__item2 {
+.section2-block-flex__item2 {
 	padding-right: 3px;
 }
 
@@ -235,8 +235,37 @@ section.new-features {
 /* ! end SECTION1.new-features */
 
 /* * start SECTION3.macbook */
-
 section.macbook {
 	height: 550px;
 	background: url(../image/section3-bg.png) no-repeat top center;
+}
+
+.block-macbook {
+	float: left;
+	padding: 93px 0 0 55px;
+}
+.section3-block-new-design {
+	float: left;
+	max-width: 550px;
+	padding: 137px 0 0 52px;
+	text-align: left;
+}
+
+.section3-block-new-design__item {
+	padding-left: 1px;
+}
+
+.section3-block-new-design__title {
+	padding-top: 13px;
+}
+
+.section3-block-new-design__text {
+	padding-top: 30px;
+}
+/* ! end SECTION3.macbook */
+
+/* * start SECTION4.clients */
+section.clients {
+	height: 648px;
+	background: url(../image/section4-bg.png) no-repeat top center;
 }
