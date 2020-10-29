@@ -201,7 +201,7 @@ section.new-features {
 	justify-content: space-between;
 }
 .block-flex__item {
-	margin-top: 4px;
+	padding-top: 4px;
 	width: 342px;
 }
 
