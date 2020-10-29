@@ -409,6 +409,8 @@ section.browser {
 
 /* * start SECTION6.forms */
 section.forms {
+	position: relative;
+	z-index: 1;
 	height: 467px;
 	background-color: #323969;
 }
