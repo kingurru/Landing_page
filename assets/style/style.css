@@ -530,7 +530,7 @@ footer {
 	height: 155px;
 	display: grid;
 	grid-template-rows: 30fr 90fr;
-	grid-template-columns: 208fr 85fr 100fr 270fr;
+	grid-template-columns: 207fr 85fr 100fr 270fr;
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
 }
 
@@ -570,13 +570,13 @@ footer {
 }
 
 .footer-block-grid__text {
-	/* Style for "Help Cente" */
+padding-top: 3px;
 	height: 72px;
 	opacity: 0.66;
 	color: #282828;
 	font-size: 14px;
 	font-weight: 400;
-	line-height: 30px;
+	line-height: 31px;
 	text-align: left;
 	letter-spacing: 0.56px;
 }
