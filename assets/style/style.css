@@ -515,3 +515,68 @@ form {
 	color: #f6f5f3;
 }
 /* ! end SECTION6.forms */
+
+/* * start FOOTER */
+
+footer {
+	position: absolute;
+	height: 332px;
+	background: url(../image/footer-bg.png) no-repeat top center;
+}
+
+.footer-block-grid {
+	margin: 80px 338px 102px 149px;
+	width: 955px;
+	height: 155px;
+	display: grid;
+	grid-template-rows: 30fr 90fr;
+	grid-template-columns: 208fr 85fr 100fr 270fr;
+	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
+}
+
+.footer-block-grid__start {
+	padding-left: 2px;
+	padding-top: 2px;
+	width: 92px;
+	height: 20px;
+	color: #2c2f49;
+	font-size: 27px;
+	font-weight: 400;
+	letter-spacing: 0px;
+	line-height: 50px;
+	text-align: left;
+}
+
+.footer-block-grid__title {
+	color: #282828;
+	font-size: 22px;
+	font-weight: 500;
+	line-height: 50px;
+	text-align: left;
+	letter-spacing: 0.88px;
+}
+
+.footer-block-grid__text-start {
+	padding-top: 6px;
+	width: 232px;
+	height: 89px;
+	opacity: 0.56;
+	color: #282828;
+	font-size: 14px;
+	font-weight: 500;
+	line-height: 26.5px;
+	text-align: left;
+	letter-spacing: 0.56px;
+}
+
+.footer-block-grid__text {
+	/* Style for "Help Cente" */
+	height: 72px;
+	opacity: 0.66;
+	color: #282828;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 30px;
+	text-align: left;
+	letter-spacing: 0.56px;
+}
