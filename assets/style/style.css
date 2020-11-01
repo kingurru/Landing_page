@@ -538,6 +538,25 @@ footer {
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
 }
 
+.ex {
+	position: absolute;
+	left: 214px;
+	top: 83px;
+}
+
+.rectangle-button {
+	z-index: 1;
+	position: absolute;
+	top: 142px;
+	right: 340px;
+	width: 52px;
+	height: 49px;
+	box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
+	border-radius: 3px;
+	border: 1px solid #ff6d6d;
+	background-color: #ff6d6d;
+}
+
 .footer-block-grid__start {
 	padding-left: 4px;
 	width: 92px;
@@ -570,8 +589,9 @@ footer {
 	padding-left: 50px;
 }
 
-.title3 {
-	padding-left: 90px;
+.title3,
+.footer-email {
+	margin-left: 90px;
 }
 
 .footer-block-grid__text-start {
@@ -597,4 +617,23 @@ footer {
 	line-height: 31px;
 	text-align: left;
 	letter-spacing: 0.56px;
+}
+
+.footer-email {
+	margin-left: 91px;
+	margin-top: 13px;
+	width: 266px;
+	height: 49px;
+	border-radius: 3px;
+	border: 1px solid #4e4e5e;
+	background-color: #f6f6f6;
+	opacity: 0.4;
+	color: #000000;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 75px;
+	text-align: left;
+	text-transform: uppercase;
+	letter-spacing: 0.4px;
+	text-indent: 25px;
 }
