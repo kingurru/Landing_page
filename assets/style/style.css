@@ -19,6 +19,10 @@
 	src: url(../font/exo/Exo-Thin.otf);
 }
 
+/* @font-face { */
+/* font-family: "Lato"; */
+/* src: url(../font/); */
+
 body {
 	max-width: 1440px;
 	margin: 0 auto;
@@ -525,24 +529,25 @@ footer {
 }
 
 .footer-block-grid {
-	margin: 80px 338px 102px 149px;
+	margin: 79px 338px 102px 149px;
 	width: 955px;
 	height: 155px;
 	display: grid;
 	grid-template-rows: 30fr 90fr;
-	grid-template-columns: 207fr 85fr 100fr 270fr;
+	grid-template-columns: 215fr 107fr 110fr 260fr;
 	font-family: "Exo-Regular", Arial, Helvetica, sans-serif;
 }
 
 .footer-block-grid__start {
-	padding-left: 2px;
-	padding-top: 2px;
+	padding-left: 4px;
 	width: 92px;
 	height: 20px;
 	color: #2c2f49;
+	font-family: Lato;
 	font-size: 27px;
 	font-weight: 400;
-	letter-spacing: 0px;
+	font-style: normal;
+	letter-spacing: normal;
 	line-height: 50px;
 	text-align: left;
 }
@@ -556,8 +561,21 @@ footer {
 	letter-spacing: 0.88px;
 }
 
+.text1 {
+	padding-left: 1px;
+}
+
+.title2,
+.text2 {
+	padding-left: 50px;
+}
+
+.title3 {
+	padding-left: 90px;
+}
+
 .footer-block-grid__text-start {
-	padding-top: 6px;
+	padding-top: 7px;
 	width: 232px;
 	height: 89px;
 	opacity: 0.56;
@@ -570,7 +588,7 @@ footer {
 }
 
 .footer-block-grid__text {
-padding-top: 3px;
+	padding-top: 4px;
 	height: 72px;
 	opacity: 0.66;
 	color: #282828;
