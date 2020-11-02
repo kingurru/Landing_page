@@ -24,14 +24,15 @@
 /* src: url(../font/); */
 
 body {
-	max-width: 1440px;
+	min-width: 1440px;
 	margin: 0 auto;
 }
 
 /* * start HEADER */
 header {
 	height: 813px;
-	background: url(../image/header-bg.png) no-repeat top center;
+	background: url(../image/header-bg.png) no-repeat center center;
+	background-size: 100%;
 }
 
 h1 {
@@ -98,7 +99,8 @@ header > p {
 /* * start SECTION1.new-design */
 section.new-design {
 	height: 724px;
-	background: url(../image/section1-bg.png) no-repeat top center;
+	background: url(../image/section1-bg.png) no-repeat center center;
+	background-size: 100%;
 }
 
 .section1-block-new-design {
@@ -164,7 +166,8 @@ section.new-design {
 /* * start SECTION2.new-features */
 section.new-features {
 	height: 675px;
-	background: url(../image/section2-bg.png) no-repeat top center;
+	background: url(../image/section2-bg.png) no-repeat center center;
+	background-size: 100%;
 }
 
 .block-new-features {
@@ -249,16 +252,19 @@ section.new-features {
 
 /* * start SECTION3.macbook */
 section.macbook {
+	margin: 0 auto;
 	height: 550px;
-	background: url(../image/section3-bg.png) no-repeat top center;
+	background: url(../image/section3-bg.png) no-repeat center center;
+	background-size: 100%;
+	display: flex;
 }
 
 .block-macbook {
-	float: left;
+	margin: 0 auto;
 	padding: 93px 0 0 55px;
 }
 .section3-block-new-design {
-	float: left;
+	margin: 0 auto;
 	max-width: 550px;
 	padding: 137px 0 0 52px;
 	text-align: left;
@@ -280,7 +286,8 @@ section.macbook {
 /* * start SECTION4.clients */
 section.clients {
 	height: 648px;
-	background: url(../image/section4-bg.png) no-repeat top center;
+	background: url(../image/section4-bg.png) no-repeat center center;
+	background-size: 100%;
 }
 
 .clients-block-flex {
@@ -441,9 +448,9 @@ section.forms {
 }
 
 .trial {
-	position: absolute;
-	top: 201px;
-	right: 180px;
+	position: relative;
+	top: 20px;
+	right: -470px;
 	width: auto;
 	height: 18px;
 	color: #f6f5f3;
@@ -453,10 +460,10 @@ section.forms {
 	letter-spacing: 0.64px;
 }
 
-.forms > img {
-	position: absolute;
-	top: 205px;
-	right: 352px;
+.arrow {
+	position: relative;
+	right: 220px;
+	top: 35px;
 }
 
 form {
@@ -537,13 +544,17 @@ form {
 /* * start FOOTER */
 
 footer {
-	position: absolute;
+	/* border-top: 1px solid white; */
+	margin: 0 auto;
+	position: relative;
 	height: 332px;
-	background: url(../image/footer-bg.png) no-repeat top center;
+	background: url(../image/footer-bg.png) no-repeat center center;
+	background-size: 100%;
 }
 
 .footer-block-grid {
-	margin: 79px 338px 102px 149px;
+	margin: 0 auto 149px;
+	padding-top: 79px;
 	width: 955px;
 	height: 155px;
 	display: grid;
@@ -553,9 +564,10 @@ footer {
 }
 
 .ex {
-	position: absolute;
-	left: 214px;
-	top: 83px;
+	display: block;
+	position: relative;
+	bottom: 45px;
+	left: 60px;
 }
 
 .message {
@@ -570,9 +582,10 @@ footer {
 
 .rectangle-button {
 	z-index: 1;
-	position: absolute;
-	top: 142px;
-	right: 340px;
+	position: relative;
+	bottom: 76px;
+	left: 902px;
+
 	width: 52px;
 	height: 49px;
 	box-shadow: 0 3px 3px rgba(14, 15, 15, 0.25);
