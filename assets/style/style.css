@@ -3,7 +3,6 @@
 	margin: 0;
 	padding: 0;
 }
-
 @font-face {
 	font-family: "Exo-Regular";
 	src: url(../font/exo/Exo-Regular.otf);
@@ -24,8 +23,9 @@
 /* src: url(../font/); */
 
 body {
-	min-width: 1440px;
+	overflow-x: hidden;
 	margin: 0 auto;
+	min-width: 1440px;
 }
 
 /* * start HEADER */
